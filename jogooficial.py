@@ -68,7 +68,7 @@ def quiz():
                     resultado = "Correto!"
                 else:
                     resultado = "Incorreto!"
-                indice = (indice + 1) % len(perguntas)  # Avança para a próxima pergunta
+                indice = (indice + 1) % len(perguntas)  
 
         pygame.display.update()
 
